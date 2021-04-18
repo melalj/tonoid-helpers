@@ -1,0 +1,50 @@
+{
+  "name": "@tonoid/helpers",
+  "version": "1.0.0",
+  "description": "Helper library to init modules (logger, mongo, redis, bull, express...) to quickstart your backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/melalj/tonoid-helpers.git"
+  },
+  "keywords": [
+    "microservice",
+    "helpers",
+    "bootstrap",
+    "service loader",
+    "graceful exit",
+    "bull",
+    "express",
+    "middlewares",
+    "gcloud",
+    "google-cloud",
+    "trace",
+    "debug",
+    "errors",
+    "logger",
+    "rabbitmq",
+    "mongodb",
+    "redis",
+    "cache",
+    "database",
+    "utils",
+    "consumer",
+    "service"
+  ],
+  "author": "Simo Elalj <simo@tonoid.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/melalj/tonoid-helpers/issues"
+  },
+  "homepage": "https://github.com/melalj/tonoid-helpers",
+  "devDependencies": {
+    "eslint": "7.24.0",
+    "eslint-config-airbnb-base": "14.2.1",
+    "eslint-plugin-import": "2.22.1"
+  },
+  "dependencies": {
+  }
+}
