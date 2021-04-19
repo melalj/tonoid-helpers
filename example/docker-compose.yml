@@ -32,6 +32,6 @@ services:
       - NODE_ENV=development
       - LOG_LEVEL=info
       - MONGO_DB=sample
-      - EXPRESS_PORT=4000
+      - EXPRESS_PORT=3000
     ports:
-      - "4000:4000"
+      - "3000:3000"

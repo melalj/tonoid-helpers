@@ -1,4 +1,4 @@
-FROM node:14.15.0-alpine
+FROM node:14.16.1-alpine
 ADD package.json /tmp/package.json
 RUN cd /tmp && yarn install --silent && mkdir -p /app && cp -a /tmp/node_modules /app/
 WORKDIR /app

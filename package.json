@@ -1,6 +1,6 @@
 {
   "name": "@tonoid/helpers",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Helper library to init modules (logger, mongo, redis, bull, express...) to quickstart your backend",
   "private": false,
   "main": "index.js",

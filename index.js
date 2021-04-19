@@ -2,10 +2,13 @@
 /* eslint-disable no-console */
 
 const defaultLogger = () => ({
-  info: (msg) => console.log(msg),
-  error: (msg) => console.error(msg),
-  warn: (msg) => console.warn(msg),
-  debug: (msg) => (process.env.LOG_LEVEL === 'debug' ? console.info(msg) : null),
+  name: 'defaultLogger',
+  init: () => ({
+    info: (msg) => console.log(msg),
+    error: (msg) => console.error(msg),
+    warn: (msg) => console.warn(msg),
+    debug: (msg) => (process.env.LOG_LEVEL === 'debug' ? console.info(msg) : null),
+  }),
 });
 
 const context = {};
@@ -14,7 +17,7 @@ async function init(modules = [], {
   logger = defaultLogger,
   onExit = Promise.resolve(),
 } = {}) {
-  context.logger = await logger();
+  context.logger = await logger().init();
 
   let isExiting = false;
 
@@ -33,7 +36,7 @@ async function init(modules = [], {
       for (let i = 0; i < contextNames.length; i += 1) {
         context.logger.info(` Closing ${context[contextNames[i]].name}...`);
         if (context[contextNames[i]].close) await context[contextNames[i]].close();
-        context.logger.info(`  ✔ ${context[contextNames[i]]} closed`);
+        context.logger.info(`  ✔ ${context[contextNames[i]].name} closed`);
       }
 
       await onExit();

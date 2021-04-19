@@ -10,10 +10,10 @@
   "author": "Simo Elalj <simo@tonoid.com>",
   "license": "MIT",
   "dependencies": {
-    "@tonoid/helpers": "0.0.1",
-    "@tonoid/mongo": "0.0.1",
-    "@tonoid/redis": "0.0.1",
-    "@tonoid/express": "0.0.1",
-    "@tonoid/logger": "0.0.1"
+    "@tonoid/helpers": "0.0.2",
+    "@tonoid/mongo": "0.0.2",
+    "@tonoid/redis": "0.0.2",
+    "@tonoid/express": "0.0.3",
+    "@tonoid/logger": "0.0.3"
   }
 }

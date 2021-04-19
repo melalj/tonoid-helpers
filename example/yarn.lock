@@ -11,10 +11,10 @@
     enabled "2.0.x"
     kuler "^2.0.0"
 
-"@tonoid/express@0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@tonoid/express/-/express-0.0.1.tgz#5402dfe53cac8e69304497a034032a93e810ee64"
-  integrity sha512-X229cN9E5PBmEBl/E15gnuzxHGgCynL3kkJa1Y+548pOU3z+LmsKawFZAqtki9nLoKgzCsUIo5pTAM4UuAC2jw==
+"@tonoid/express@0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@tonoid/express/-/express-0.0.3.tgz#e660c3696e47c8fafc3689a200e0f146562be55c"
+  integrity sha512-w77irrwI5Aw5KDxrWVZEHQe2rx88t/1mxVKJDcpU2pVG8YfdKF6baUju3Pe6cY4xTZwKQaEyv+aRJPe5beIw/A==
   dependencies:
     compression "1.7.4"
     express "4.17.1"
@@ -22,29 +22,29 @@
     express-winston "4.1.0"
     winston "3.3.3"
 
-"@tonoid/helpers@0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@tonoid/helpers/-/helpers-0.0.1.tgz#5ec239be94cadf938013c3e78eb4a1de60ac65a8"
-  integrity sha512-u2X5nyHHUisIWGLsO3YLAuTIwrbeEHirkWwWQHyuIIBcbYHiQpSyGkxgY2vMEEqPnHAn+uSYVVkCvVD6ZcPPdA==
+"@tonoid/helpers@0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@tonoid/helpers/-/helpers-0.0.2.tgz#6c22993d8eff2d4dfdd6f1b1c8865421cd32c95b"
+  integrity sha512-NhUWPpkGc7o6/OEYftPaPFyWGy7QboUvV8x3Ac/Q7SFo9xbA4ZzVJQPh5/T/iUHH5UWDvDFC4h1to9VSx1L2BA==
 
-"@tonoid/logger@0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@tonoid/logger/-/logger-0.0.1.tgz#4b7c768ed2a07c68226c79de3e478d3b06ed1eb0"
-  integrity sha512-yfq7pWII9q76OlXdxP5qynMgWE+1vcgaKdG1IVhVzY3x5eYj0/4FjrY4QWdoW7+PZ8vzhjg9ZTEpdtYcGlDvuA==
+"@tonoid/logger@0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@tonoid/logger/-/logger-0.0.3.tgz#23afb7329875bc602793adce3dbfa49672327e20"
+  integrity sha512-1PVT25xVqGDNwtjYhfgYdE5VbvjZ6nkIIl/uKWXKzuHvNUR3MgHqi7IEz3HUNOCwa+xGtmAekR4V7vDkMs6/rQ==
   dependencies:
     winston "3.3.3"
 
-"@tonoid/mongo@0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@tonoid/mongo/-/mongo-0.0.1.tgz#c6c386ed48eebd85aee3c04dce81b46c0a341283"
-  integrity sha512-LP7fL+r2yaPkeXQb5wfLJu/q0v9WS6+gqqnsqh3D0ByANSs9nG/2STcDmbiCeSnOOVuQhibFKuGI8A2PFGXSFQ==
+"@tonoid/mongo@0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@tonoid/mongo/-/mongo-0.0.2.tgz#d9129f5f87fbfdbabbf525263eccbd459c539297"
+  integrity sha512-292ib+8jHGlWTrUVQIm9lgl68EnzW0GhHRiCpsqoU184VuQDeR3u+8v87xnT7z8ufUaFqNJo2ynurdAKMKm68A==
   dependencies:
     mongodb "3.6.6"
 
-"@tonoid/redis@0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@tonoid/redis/-/redis-0.0.1.tgz#e20f43f774b181a8e9dafbd2020350fa7101b1c1"
-  integrity sha512-cm0QwwuqH2rL/f8iKaM1wQDXQ+vz5SJAbh2dilZq7mdsVs0wtA/T6l56M0DwGxB0KdziAMkuoPY68FofMZmr2A==
+"@tonoid/redis@0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@tonoid/redis/-/redis-0.0.2.tgz#b96a9f3f63c9e47b04b731f93982945ceae2e4f4"
+  integrity sha512-HNU8BsdTsxzxRUcZfr19kbjj85r90hyruyl1lOAwjPXeHl4gjkssx8tiXKNR+muNX01TuAJQnKN+CvJ52unFVg==
   dependencies:
     cache-manager "3.4.3"
     cache-manager-ioredis "2.1.0"

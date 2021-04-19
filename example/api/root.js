@@ -1,1 +1,1 @@
-module.exports = () => (req, res) => res.json({ message: 'Home sweet home' });
+module.exports = () => (req, res) => res.send({ message: 'Home sweet home' });

@@ -7,7 +7,7 @@
 ## Test locally
 
 ```sh
-docker-compose up backend
+docker compose up backend
 ```
 
 ## Available endpoints
@@ -17,5 +17,5 @@ docker-compose up backend
 - `http://localhost:3000/mongo-example/add`: add an item in mongo db
 - `http://localhost:3000/mongo-example/del`: delete an item in mongo db
 - `http://localhost:3000/redis-example`: list items in redis
-- `http://localhost:3000/redis-example/add`: add an item in redis
+- `http://localhost:3000/redis-example/set`: set an item in redis
 - `http://localhost:3000/redis-example/del`: delete an item in redis
