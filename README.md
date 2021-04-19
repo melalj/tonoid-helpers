@@ -3,7 +3,7 @@
 ![npm](https://img.shields.io/npm/dt/@tonoid/helpers.svg) ![npm](https://img.shields.io/npm/v/@tonoid/helpers.svg) ![npm](https://img.shields.io/npm/l/@tonoid/helpers.svg) ![David](https://img.shields.io/david/melalj/tonoid-helpers.svg)
 [![GitHub stars](https://img.shields.io/github/stars/melalj/tonoid-helpers.svg?style=social&label=Star&maxAge=2592003)](https://github.com/melalj/tonoid-helpers)
 
-Quickstart your backend project with helpers that abstract boilerplate code.
+Quickstart your backend project with helpers all abstract boilerplate code.
 
 ## Available helpers
 

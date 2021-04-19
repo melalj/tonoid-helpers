@@ -22,10 +22,10 @@
     express-winston "4.1.0"
     winston "3.3.3"
 
-"@tonoid/helpers@0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@tonoid/helpers/-/helpers-0.0.2.tgz#6c22993d8eff2d4dfdd6f1b1c8865421cd32c95b"
-  integrity sha512-NhUWPpkGc7o6/OEYftPaPFyWGy7QboUvV8x3Ac/Q7SFo9xbA4ZzVJQPh5/T/iUHH5UWDvDFC4h1to9VSx1L2BA==
+"@tonoid/helpers@0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@tonoid/helpers/-/helpers-0.0.3.tgz#f8678f5522a56a982c25cf1f25d883c64ef9925d"
+  integrity sha512-DMX9Uc4s6gwH5Ol0D++YQOltRqzA7KaVoJJH+DyUV2x4ZbFNVnma9cXf++L1XYeEGF/eqvPJy7jWxs6EmA5qiA==
 
 "@tonoid/logger@0.0.3":
   version "0.0.3"
