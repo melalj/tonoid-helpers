@@ -1,5 +1,10 @@
 # @tonoid/helpers
 
+[![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://github.com/melalj/tonoid-helpers)
+[![GitHub stars](https://img.shields.io/github/stars/melalj/tonoid-helpers.svg?style=social&label=Star&maxAge=2592003)]()
+
+[![npm](https://img.shields.io/npm/dt/@tonoid/helpers.svg)]() [![npm](https://img.shields.io/npm/v/@tonoid/helpers.svg)]() [![npm](https://img.shields.io/npm/l/@tonoid/helpers.svg)]() [![David](https://img.shields.io/david/melalj/tonoid-helpers.svg)]()
+
 Quickstart your backend project with helpers that abstract boilerplate code.
 
 ## Available helpers
@@ -53,3 +58,7 @@ router.get('/', express.asyncHandler(async (req, res) => {
 module.exports = router;
 
 ```
+
+## Credits
+
+This module is maintained by [Simo Elalj](https://twitter.com/simoelalj) @[tonoid](https://www.tonoid.com)

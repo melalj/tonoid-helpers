@@ -1,0 +1,19 @@
+{
+  "name": "example-full-stack",
+  "version": "0.0.1",
+  "description": "Full stack example to use @tonoid/helpers",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Simo Elalj <simo@tonoid.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@tonoid/helpers": "0.0.1",
+    "@tonoid/mongo": "0.0.1",
+    "@tonoid/redis": "0.0.1",
+    "@tonoid/express": "0.0.1",
+    "@tonoid/logger": "0.0.1"
+  }
+}
