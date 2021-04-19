@@ -15,7 +15,7 @@ const context = {};
 
 async function init(modules = [], {
   logger = defaultLogger,
-  onExit = Promise.resolve(),
+  onExit = () => Promise.resolve(),
 } = {}) {
   context.logger = await logger().init();
 
