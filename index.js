@@ -34,9 +34,9 @@ async function init(modules = [], {
     try {
       const contextNames = Object.keys(context);
       for (let i = 0; i < contextNames.length; i += 1) {
-        context.logger.info(` Closing ${context[contextNames[i]].name}...`);
+        context.logger.info(` Closing ${contextNames[i]}...`);
         if (context[contextNames[i]].close) await context[contextNames[i]].close();
-        context.logger.info(`  ✔ ${context[contextNames[i]].name} closed`);
+        context.logger.info(`  ✔ ${contextNames[i]} closed`);
       }
 
       await onExit();
