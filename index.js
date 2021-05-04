@@ -69,7 +69,7 @@ async function init(modules = [], {
     isExiting = true;
   }
 
-  ['SIGINT', 'SIGTERM', 'SIGQUIT', 'uncaughtException', 'unhandledRejection']
+  ['SIGINT', 'SIGTERM', 'SIGUSR1', 'SIGUSR2', 'SIGQUIT', 'uncaughtException', 'unhandledRejection', 'exit']
     .forEach((signal) => {
       process.on(signal, (reason, p) => {
         if (reason) {
