@@ -1,6 +1,6 @@
 {
   "name": "@tonoid/helpers",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Helper library to init modules (logger, mongo, redis, bull, express...) to quickstart your backend",
   "private": false,
   "main": "index.js",
@@ -42,8 +42,8 @@
   },
   "homepage": "https://github.com/melalj/tonoid-helpers",
   "devDependencies": {
-    "eslint": "7.24.0",
-    "eslint-config-airbnb-base": "14.2.1",
-    "eslint-plugin-import": "2.22.1"
+    "eslint": "8.2.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-plugin-import": "2.25.3"
   }
 }

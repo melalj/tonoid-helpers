@@ -15,9 +15,10 @@ const context = {};
 
 async function init(modules = [], {
   logger = defaultLogger,
+  loggerOptions = {},
   onExit = () => Promise.resolve(),
 } = {}) {
-  context.logger = await logger().init();
+  context.logger = await logger(loggerOptions).init();
 
   let isExiting = false;
 
