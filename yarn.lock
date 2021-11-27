@@ -786,6 +786,11 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
+node-graceful@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/node-graceful/-/node-graceful-3.1.0.tgz#fab88c96ed1975b939a91bc5be48f0e1c10d0afe"
+  integrity sha512-fGH0ijsO5ZDDY405mP6bE0eNrHQhpjDrihhaviqprP1+aJEWy7bZtzXESp3ZAo6hBTtxOFe7RfSkcqFX001gJQ==
+
 object-inspect@^1.11.0:
   version "1.11.0"
   resolved "https://registry.yarnpkg.com/object-inspect/-/object-inspect-1.11.0.tgz#9dceb146cedd4148a0d9e51ab88d34cf509922b1"
