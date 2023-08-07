@@ -1,6 +1,6 @@
 {
   "name": "@tonoid/helpers",
-  "version": "0.0.7",
+  "version": "0.1.0",
   "description": "Helper library to init modules (logger, mongo, redis, bull, express...) to quickstart your backend",
   "private": false,
   "main": "index.js",
@@ -47,6 +47,5 @@
     "eslint-plugin-import": "2.25.3"
   },
   "dependencies": {
-    "node-graceful": "3.1.0"
   }
 }

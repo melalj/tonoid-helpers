@@ -1,10 +1,5 @@
 /* eslint-disable no-await-in-loop */
 /* eslint-disable no-console */
-const Graceful = require('node-graceful');
-
-Graceful.captureExceptions = true;
-Graceful.captureRejections = true;
-Graceful.timeout = 10000;
 
 const defaultLogger = () => ({
   name: 'defaultLogger',
@@ -32,6 +27,7 @@ async function init(modules = [], {
   }
 
   const closeGracefully = async (signal) => {
+    console.log('closeGracefully', signal);
     if (isExiting) return;
     context.logger.info(`Gracefully shutting down from ${signal}...`);
     isExiting = true;
@@ -72,7 +68,13 @@ async function init(modules = [], {
     await closeGracefully('START');
   }
 
-  Graceful.on('exit', closeGracefully);
+  async function exitHandler(signalCode) {
+    await closeGracefully(signalCode);
+  }
+
+  ['exit', 'SIGINT', 'SIGUSR1', 'SIGUSR2', 'uncaughtException', 'SIGTERM'].forEach((eventType) => {
+    process.on(eventType, exitHandler.bind(null, eventType));
+  });
 }
 
 module.exports = {
