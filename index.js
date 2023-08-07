@@ -27,7 +27,6 @@ async function init(modules = [], {
   }
 
   const closeGracefully = async (signal) => {
-    console.log('closeGracefully', signal);
     if (isExiting) return;
     context.logger.info(`Gracefully shutting down from ${signal}...`);
     isExiting = true;
@@ -44,11 +43,12 @@ async function init(modules = [], {
       }
 
       await onExit();
-      context.logger.info(`🔴 App is gracefully closed (${signal})`);
+      context.logger.info(`🚪 App is gracefully closed (${signal})`);
 
       exitProcess(signal);
     } catch (e) {
-      context.logger.error(`${e.message} ${e.stack}`);
+      context.logger.error(`Error closing: ${e.message} ${e.stack}`);
+      exitProcess(signal);
     }
   };
 
